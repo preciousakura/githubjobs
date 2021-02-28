@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/githubjobs/static/css/main.d5f90159.chunk.css",
+    "main.js": "/githubjobs/static/js/main.ec6bc944.chunk.js",
+    "main.js.map": "/githubjobs/static/js/main.ec6bc944.chunk.js.map",
+    "runtime-main.js": "/githubjobs/static/js/runtime-main.f5a67a33.js",
+    "runtime-main.js.map": "/githubjobs/static/js/runtime-main.f5a67a33.js.map",
+    "static/js/2.4def4e8f.chunk.js": "/githubjobs/static/js/2.4def4e8f.chunk.js",
+    "static/js/2.4def4e8f.chunk.js.map": "/githubjobs/static/js/2.4def4e8f.chunk.js.map",
+    "index.html": "/githubjobs/index.html",
+    "static/css/main.d5f90159.chunk.css.map": "/githubjobs/static/css/main.d5f90159.chunk.css.map",
+    "static/js/2.4def4e8f.chunk.js.LICENSE.txt": "/githubjobs/static/js/2.4def4e8f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/githubjobs/static/media/Patua One.8966badf.ttf",
+    "static/media/Home.css": "/githubjobs/static/media/job.06284962.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5a67a33.js",
+    "static/js/2.4def4e8f.chunk.js",
+    "static/css/main.d5f90159.chunk.css",
+    "static/js/main.ec6bc944.chunk.js"
+  ]
+}
