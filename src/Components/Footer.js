@@ -8,7 +8,7 @@ export default function Footer(){
           <li><a target="_blank" href="https://github.com/contact">Contact</a></li>
           <li><a target="_blank" href="https://github.com/site/privacy">Privacy</a></li>
           <li><a target="_blank" href="https://github.com/site/terms">Terms</a></li>
-          <Link to={"/Api"}><li><a>API</a></li></Link>
+          <Link to={"/githubjobs/Api"}><li><a>API</a></li></Link>
             
         </ul>
 

@@ -28,6 +28,7 @@ function Jobs(props) {
     useEffect(() => {
         setPage(1)
         Api.get(`/positions.json?page=${page}&description=${leag}&full_time=${fullT}&location=${location}`).then((response) => {
+            
             setCases(response.data)
         })
 
