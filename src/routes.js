@@ -17,7 +17,7 @@ function Routes(){
                 <Route path="/Api" component={ApiPage} />
                 <Route path="/HowItWorks" component={HowItWorks} />
                 <Route path="/Jobs/:desc?/:loc?/:check?" component={Jobs} />
-                <Route path="/:id" exact component={PageJob} />
+                <Route path="/:id" component={PageJob} />
 
             </Switch>
         </BrowserRouter>
