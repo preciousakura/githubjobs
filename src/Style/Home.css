@@ -1,0 +1,146 @@
+/* Trick: */
+body {
+    position: relative;
+  }
+  
+  body::after {
+    content: '';
+    display: block;
+    height: 50px; /* Set same as footer's height */
+  }
+
+  body{ min-height:100vh; margin:0; position:relative; }
+
+.content {
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .content .pic {
+    width: 460px;
+    height: 375px;
+    background: url(../img/job.png)no-repeat;
+    background-size: 100%;
+}
+
+.home .content .form {
+    font-family: Patua One;
+    font-size: 30px;
+    color: #2b337e;
+    text-align: left;
+}
+
+.home .content .form input, label {
+    text-align: left;
+    display:block;
+}
+
+.home .content .form label {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.home .content .form .title-job-description, .home .content .form .title-location,  .home .content .form .title-full-time{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home .content .form input[type="text"] {
+    outline: none;
+    padding: 10px;
+    width: 390px;
+    margin: 30px 0;
+}
+
+.home .content .form .title-full-time label {
+    font-size: 15px;
+    padding-left: 12px;
+    display: flex;
+}
+
+.home .content .form .title-full-time {
+    float: right;
+}
+
+.home .content .form .bt-search a {
+    color: white;
+}
+
+.home .content .form .bt-search {
+    background-color: #2b337e;
+    color: #fff;
+    width: max-content;
+    padding: 7px;
+    float: none;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.home .content .form .bt-search:hover {
+    background-color: #182257;
+    font-size: 25px;
+    padding: 9px;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+    .App {
+        width: 850px;   
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .home .content .form .title-job-description, .home .content .form .title-location, .content {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        display: flex !important;
+    }
+
+    .pic{
+        display: none;
+    }
+    .App {
+        width: 100%;   
+    }
+    .home .content .form {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .home .content .form input[type="text"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .home .content .form .title-full-time {
+        float: none;
+    }
+
+    .home .content .form .title-full-time label {
+        padding: 15px 0;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+    label {
+        padding-left: 3px !important;
+    }
+}
+
+
