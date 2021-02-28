@@ -13,7 +13,7 @@ function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/githubjobs" exact component={Home} />
                 <Route path="/Api" component={ApiPage} />
                 <Route path="/HowItWorks" component={HowItWorks} />
                 <Route path="/Jobs/:desc?/:loc?/:check?" component={Jobs} />

@@ -17,7 +17,7 @@ function Navbar(){
           </div> : <></>}
         </div>
         
-        <Link to={"/"}><span><span className="logo">Github JOBS</span></span></Link>
+        <Link to={"/githubjobs"}><span><span className="logo">Github JOBS</span></span></Link>
         <div className="submenu">
           <Link to={"/Jobs"}><span>All Jobs</span></Link>
           <Link to={"/HowItWorks"}><span>How it Works</span></Link>
