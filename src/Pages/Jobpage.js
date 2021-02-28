@@ -4,7 +4,8 @@ import Api from '../Api'
 import moment from 'moment';
 import Navbar from '../Components/Navbar.js';
 import Footer from '../Components/Footer'
-import HTML from "react-native-render-html"
+import { FaArrowLeft } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 import ReactMarkdown from 'react-markdown';
 
@@ -30,6 +31,7 @@ function PageJob() {
         <div>
             <Navbar />
             <div className="page">
+                <Link to="/Jobs"><div className="back"><div className="icon_back"><FaArrowLeft /></div><h3> See all positions</h3></div></Link>
             <div className="single_job">
                 <div className="text">
                 <div className="single_date_loc"><p>{moment(cases.created_at).fromNow()}  /  <b></b>{cases.location}</p></div>

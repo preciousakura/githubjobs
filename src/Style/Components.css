@@ -71,6 +71,13 @@
     color: white;
 }
 
+.page a {
+    color: #182257;
+}
+
+.page a:hover {
+    color: black;
+}
 
 
 @media screen and (max-width: 970px) {
@@ -118,6 +125,23 @@
     }
 }
 
+.back h3 {
+    text-align: left;
+}
+
+
+.back {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icon_back {
+    font-size: 19px;
+    margin-right: 10px;
+    display: flex;
+}
 
 .jobs-list {
     text-align: left;
