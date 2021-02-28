@@ -13,11 +13,11 @@ function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" component={Home} />
+                <Route path="/" exact component={Home} />
                 <Route path="/Api" component={ApiPage} />
                 <Route path="/HowItWorks" component={HowItWorks} />
                 <Route path="/Jobs/:desc?/:loc?/:check?" component={Jobs} />
-                <Route path="/:id" component={PageJob} />
+                <Route path="/:id" exact component={PageJob} />
 
             </Switch>
         </BrowserRouter>
