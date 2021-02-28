@@ -5,6 +5,7 @@ import PostCard from '../Components/PostCard'
 import Api from '../Api.js'
 import Footer from '../Components/Footer'
 
+
 function Jobs(props) {
 
     let desc = ''
@@ -27,7 +28,13 @@ function Jobs(props) {
 
     useEffect(() => {
         setPage(1)
-        Api.get(`/positions.json?page=${page}&description=${leag}&full_time=${fullT}&location=${location}`).then((response) => {
+        Api.get(`/positions.json?page=${page}&description=${leag}&full_time=${fullT}&location=${location}`,
+        {
+            headers: {
+                "Access-Control-Allow-Origin": "*"
+            }
+        }
+        ).then((response) => {
             
             setCases(response.data)
         })
@@ -36,7 +43,13 @@ function Jobs(props) {
     
     
     useEffect(() => {
-        Api.get(`/positions.json?page=${page}&description=${leag}&full_time=${fullT}&location=${location}`).then((response) => {
+        Api.get(`/positions.json?page=${page}&description=${leag}&full_time=${fullT}&location=${location}`,
+        {
+            headers: { 
+                "Access-Control-Allow-Origin": "*"
+            }
+        }
+        ).then((response) => {
             setCases(response.data)
         })
 
