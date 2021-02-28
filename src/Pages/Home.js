@@ -42,7 +42,7 @@ function Home() {
                 <label><input type="checkbox" onClick={(e) => setCheck(!check)} name="full-time" /> Full Time Only</label>
                 </div>
                 <div className="bt-search">
-                    <Link to={`/Jobs/${desc}/${loc}/${check}`}><span onClick={() => sendInfo()}>Search</span></Link>
+                    <Link to={`/githubjobs/Jobs/${desc}/${loc}/${check}`}><span onClick={() => sendInfo()}>Search</span></Link>
                 </div>
             </div>
             <div className="pic"></div>

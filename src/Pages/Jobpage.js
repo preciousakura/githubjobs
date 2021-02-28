@@ -31,7 +31,7 @@ function PageJob() {
         <div>
             <Navbar />
             <div className="page">
-                <Link to="/Jobs"><div className="back"><div className="icon_back"><FaArrowLeft /></div><h3> See all positions</h3></div></Link>
+                <Link to="/githubjobs/Jobs"><div className="back"><div className="icon_back"><FaArrowLeft /></div><h3> See all positions</h3></div></Link>
             <div className="single_job">
                 <div className="text">
                 <div className="single_date_loc"><p>{moment(cases.created_at).fromNow()}  /  <b></b>{cases.location}</p></div>
